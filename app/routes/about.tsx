@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className="py-16 bg-white">
+        <div className="py-16 bg-gray-100">
             <div className="container mx-auto px-4 max-w-4xl">
                 <h1 className="text-4xl font-extrabold text-gray-900 mb-6 text-center">
                     About This Website

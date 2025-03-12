@@ -10,7 +10,7 @@ export function meta({ }: Route.MetaArgs) {
 
 export default function Home() {
     return (
-        <div className="px-2 py-32 bg-white md:px-0">
+        <div className="px-2 py-32 bg-gray-100 md:px-0">
             <div className="container items-center max-w-6xl mx-auto xl:px-5">
                 <div className="flex flex-wrap items-center sm:-mx-3">
                     <div className="w-full md:w-1/2 md:px-3">
