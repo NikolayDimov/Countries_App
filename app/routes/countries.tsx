@@ -2,12 +2,13 @@ import { Link } from "react-router";
 import type { Route } from "./+types/countries";
 import { useState } from "react";
 
-interface Country {
+export interface Country {
     name: {
         common: string;
         official: string;
         nativeName?: Record<string, { official: string; common: string }>;
     };
+    officialName: string;
     cca2: string;
     cca3: string;
     ccn3?: string;
@@ -20,7 +21,9 @@ interface Country {
     languages: Record<string, string>;
     population: number;
     flag: string;
-};
+    flagUrl: string;
+}
+
 
 export async function clientLoader() {
     try {
@@ -34,7 +37,7 @@ export async function clientLoader() {
 }
 
 export default function Countries({ loaderData }: Route.ComponentProps) {
-    console.log(loaderData);
+    // console.log(loaderData);
     const [search, setSearch] = useState<string>("");
     const [region, setRegion] = useState<string>("");
 
