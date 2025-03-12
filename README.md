@@ -1,3 +1,17 @@
+# Countries App
+This is a web application built with React and Tailwind CSS, providing a clean and responsive UI. The app fetches country data from an external API and displays it in a user-friendly interface. Users can search and filter countries by region or name.
+
+## Features
+View a list of countries with details like name, capital, region, and population.
+Filter countries by name and region.
+View detailed information about each country, including its flag and population.
+Built with React, React router v.7 and styled using Tailwind CSS.
+
+
+## Screenshot
+![Countries_App](public/home_page.png)
+![Countries_App](public/countries_page.png)
+
 # Welcome to React Router!
 
 A modern, production-ready template for building full-stack React applications using React Router.
